@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Esmaeel Moustafa - Software Engineer",
   description: "Personal website and blog of a passionate software engineer",
-  keywords: ["software engineer", "developer", "blog", "projects"],
+  keywords: ["Android engineer", "Senior android engineer", "software engineer", "developer", "blog", "projects"],
   authors: [{ name: "Esmaeel Moustafa" }],
   creator: "Esmaeel Moustafa",
   openGraph: {

@@ -17,7 +17,7 @@ const Navigation = () => {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
+    { name: 'CV', href: '/about' },
     { name: 'Projects', href: '/projects' },
     { name: 'Blog', href: '/blog' },
   ]
@@ -69,7 +69,7 @@ const Navigation = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:esmaeel.nabil@gmail.com"
+              href="mailto:esmaeel.moustafa.n@gmail.com"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               <Mail size={20} />
