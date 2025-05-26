@@ -38,7 +38,7 @@ export async function getGitHubRepos(username: string): Promise<GitHubRepo[]> {
     return repos
       .filter(repo => !repo.name.startsWith('.') && repo.description) // Filter out dot files and repos without descriptions
       .sort((a, b) => b.stargazers_count - a.stargazers_count)
-      .slice(0, 12) // Show top 12 repositories
+      .slice(0, 200) // Show top 12 repositories
   } catch (error) {
     console.error('Error fetching GitHub repositories:', error)
     return []
