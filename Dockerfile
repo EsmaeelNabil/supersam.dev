@@ -3,7 +3,7 @@
 
 # ===== BASE STAGE =====
 # Use standard Node.js (not Alpine) to avoid lightningcss musl compatibility issues
-FROM --platform=linux/amd64 node:18-slim AS base
+FROM --platform=linux/amd64 node:24-slim AS base
 # Install only essential system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
